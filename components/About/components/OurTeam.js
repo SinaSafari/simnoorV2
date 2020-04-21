@@ -115,7 +115,6 @@ const OurTeam = () => {
               );
             })}
           </div>
-          <div className></div>
         </div>
       </section>
     );

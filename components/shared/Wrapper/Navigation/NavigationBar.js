@@ -42,6 +42,7 @@ const NavigationBar = () => {
             </Link>
           )}
         </nav>
+
         {isLoggedIn && (
           <a className="btn btn-outline-primary mx-1" onClick={logoutHandler}>
             Logout

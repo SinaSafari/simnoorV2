@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { AppContext } from "../context/AppContext";
 import Link from "next/link";
-const Hero = () => {
+const Hero = ({ ENtitle, FAtitle }) => {
   const { isEng } = useContext(AppContext);
 
   if (isEng) {
@@ -20,8 +20,9 @@ const Hero = () => {
             Simnoor Yazdan&reg;
           </h1>
           <p className="lead font-weight-normal text-light">
-            And an even wittier subheading to boot. Jumpstart your marketing
-            efforts with this example based on Apple's marketing pages.
+            {/* And an even wittier subheading to boot. Jumpstart your marketing
+            efforts with this example based on Apple's marketing pages. */}
+            {ENtitle}
           </p>
           <Link href="/products">
             <a className="btn btn-outline-light">Products</a>
@@ -50,8 +51,9 @@ const Hero = () => {
             سیم نور یزدان
           </h1>
           <p className="lead font-weight-normal text-light">
-            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
-            استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
+            {/* لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+            استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله */}
+            {FAtitle}
           </p>
           <Link href="/products">
             <a className="btn btn-outline-light">محصرلات</a>

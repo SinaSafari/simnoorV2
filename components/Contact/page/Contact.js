@@ -7,7 +7,7 @@ import ContactForm from "../components/ContactForm";
 const Contact = () => {
   return (
     <>
-      <Hero />
+      <Hero ENtitle="Contact us" FAtitle="تماس با ما" />
       <Map />
       <ContactForm />
     </>

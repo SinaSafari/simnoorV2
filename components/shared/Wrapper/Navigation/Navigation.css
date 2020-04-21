@@ -46,6 +46,10 @@ body {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+.logout {
+  border: 1px solid orange;
+}
+
 .nav > #nav-check {
   display: none;
 }

@@ -8,7 +8,7 @@ import OurTeam from "../components/OurTeam";
 const About = () => {
   return (
     <>
-      <Hero />
+      <Hero ENtitle="About us" FAtitle="درباره ما" />
       <AboutSection />
       <Milestones />
       <Costomers />
