@@ -16,7 +16,7 @@ const Footer = () => {
         >
           <div className="container">
             <div className="row">
-              <div className="col-12 col-md">
+              <div className="col-12 col-md my-4">
                 <img
                   className="mb-2"
                   src="/icons/simnoorlogo.png"
@@ -25,7 +25,7 @@ const Footer = () => {
                   height="75"
                 />
               </div>
-              <div className="col-6 col-md">
+              <div className="col-md-6 col-sm-12">
                 <h5>Features</h5>
                 <ul className="list-unstyled text-small">
                   <li>
@@ -60,7 +60,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-              <div className="col-6 col-md">
+              {/* <div className="col-6 col-md">
                 <h5>Resources</h5>
                 <ul className="list-unstyled text-small">
                   <li>
@@ -84,8 +84,8 @@ const Footer = () => {
                     </a>
                   </li>
                 </ul>
-              </div>
-              <div className="col-6 col-md">
+              </div> */}
+              <div className="col-md-6 col-sm-12">
                 <h5>About</h5>
                 <ul className="list-unstyled text-small">
                   <li>
@@ -143,7 +143,7 @@ const Footer = () => {
         >
           <div className="container">
             <div className="row">
-              <div className="col-6 col-md">
+              <div className="col-md-6 col-sm-12">
                 <h5>برگزیده ها</h5>
                 <ul className="list-unstyled text-small">
                   <li>
@@ -178,7 +178,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-              <div className="col-6 col-md">
+              {/* <div className="col-6 col-md">
                 <h5>منابع</h5>
                 <ul className="list-unstyled text-small">
                   <li>
@@ -202,8 +202,8 @@ const Footer = () => {
                     </a>
                   </li>
                 </ul>
-              </div>
-              <div className="col-6 col-md">
+              </div> */}
+              <div className="col-md-6 col-sm-12">
                 <h5>دربارمون</h5>
                 <ul className="list-unstyled text-small">
                   <li>

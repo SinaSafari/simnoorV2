@@ -56,7 +56,7 @@ const Hero = ({ ENtitle, FAtitle }) => {
             {FAtitle}
           </p>
           <Link href="/products">
-            <a className="btn btn-outline-light">محصرلات</a>
+            <a className="btn btn-outline-light">محصولات</a>
           </Link>
         </div>
         <div className="product-device box-shadow d-none d-md-block"></div>
