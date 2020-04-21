@@ -5,6 +5,7 @@ import { AppContextProvider } from "../components/shared/context/AppContextProvi
 import MainWrapper from "../components/shared/Wrapper/MainWrapper";
 
 import "../components/shared/Wrapper/style/style.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function MyApp({ Component, pageProps }) {
   return (

@@ -2,8 +2,11 @@ import React from "react";
 
 const Profile = () => {
   return (
-    <div>
-      <h1>Profile is here</h1>
+    <div
+      className="ltrfont d-flex justify-content-center"
+      style={{ marginTop: "100px", marginBottom: "100px" }}
+    >
+      <h1>This is Profile page {":)"} </h1>
     </div>
   );
 };

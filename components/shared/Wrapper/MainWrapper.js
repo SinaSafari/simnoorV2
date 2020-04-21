@@ -1,10 +1,11 @@
 import React from "react";
-import Navigation from "./Navigation/Navigation";
+import NavigationBar from "./Navigation/NavigationBar";
 import Footer from "./Footer/Footer";
+
 const MainWrapper = (props) => {
   return (
     <>
-      <Navigation />
+      <NavigationBar />
       {props.children}
       <Footer />
     </>

@@ -1,7 +1,14 @@
 @import url("https://cdn.fontcdn.ir/Font/Persian/Yekan/Yekan.css");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+html {
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: "Roboto";
+}
+.ltrfont {
+  font-family: "Roboto" !important;
 }
 .rtlfont {
   font-family: "Yekan" !important;

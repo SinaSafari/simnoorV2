@@ -1,0 +1,29 @@
+.products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.product-title {
+  border-bottom: 5px solid orange;
+  padding-bottom: 5px;
+  line-height: 1.5;
+}
+.product-btn {
+  padding: 15px 40px;
+  font-size: 17px;
+  color: white;
+  background-color: orange;
+  border: 1px solid grey;
+  border-radius: 8px;
+}
+.product-btn:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid grey;
+}
+@media only screen and (max-width: 768px) {
+  .products {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: space-evenly;
+  }
+}

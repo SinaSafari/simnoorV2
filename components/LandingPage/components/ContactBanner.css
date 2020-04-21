@@ -1,0 +1,44 @@
+.site-btn {
+  display: inline-block;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  min-width: 186px;
+  padding: 23px 47px;
+  text-transform: uppercase;
+  background: #ffc000;
+  color: #fff;
+  line-height: normal;
+  cursor: pointer;
+  text-align: center;
+}
+
+.site-btn:hover {
+  color: #fff;
+}
+
+.site-btn.sb-dark {
+  color: #fff;
+  background: #081624;
+}
+
+.cta-section {
+  padding: 33px 0;
+  background: #b44501;
+}
+
+.cta-section h2 {
+  color: #fff;
+  font-size: 37px;
+  font-weight: 300;
+}
+
+.contactBtn {
+  border-radius: 5px;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+.contactBtn:hover {
+  color: black;
+  background-color: white;
+}

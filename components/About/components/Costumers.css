@@ -1,0 +1,24 @@
+.client-text {
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+.client-text h2 {
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.client-text p {
+  font-size: 18px;
+}
+
+.client-slider .single-brand {
+  display: table;
+  height: 80px;
+  width: 100%;
+}
+
+.spad {
+  padding-top: 103px;
+  padding-bottom: 103px;
+}

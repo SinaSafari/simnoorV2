@@ -1,0 +1,59 @@
+.map-section {
+  position: relative;
+  padding: 115px 0 110px;
+}
+
+.map-section .container {
+  position: relative;
+  z-index: 5;
+}
+
+.map-info {
+  max-width: 293px;
+  padding: 30px 30px 30px;
+  background: #fc7626;
+  position: relative;
+  /* border: 1px solid grey; */
+  /* border-radius: 10px; */
+}
+
+.map-info::after {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: -17px;
+  border-right: 27px solid #fc7626;
+  border-top: 0px solid transparent;
+  border-bottom: 17px solid transparent;
+}
+
+.map-info img {
+  margin-bottom: 45px;
+}
+
+.map-info p {
+  color: #000;
+  text-shadow: 1px 1px #fff;
+  font-size: 16px;
+}
+
+.map {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+}
+
+.map iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+}
+
+.hib-icon {
+  float: left;
+  margin-right: 13px;
+}

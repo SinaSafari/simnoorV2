@@ -1,0 +1,89 @@
+/* .spad {
+  padding-top: 103px;
+  padding-bottom: 103px;
+}
+
+.team-text {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.team-text h2 {
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.team-text p {
+  font-size: 18px;
+  line-height: 2;
+}
+
+.team-member {
+  margin-top: 35px;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-box-shadow: 0 0 200px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 200px rgba(0, 0, 0, 0);
+}
+
+.team-member:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border: 2px solid #e3f0fa;
+  opacity: 1;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.team-member img {
+  position: relative;
+  z-index: 2;
+}
+
+.team-member .member-info {
+  position: relative;
+  text-align: center;
+  padding: 40px 20px 47px;
+  z-index: 3;
+}
+
+.team-member .member-info h3 {
+  font-size: 20px;
+}
+
+.team-member .member-info p {
+  margin-bottom: 20px;
+}
+
+.team-member .member-info .site-btn {
+  min-width: 127px;
+}
+
+.team-member:hover {
+  -webkit-box-shadow: 0 26px 49px rgba(0, 0, 0, 0.17);
+  box-shadow: 0 26px 49px rgba(0, 0, 0, 0.17);
+}
+
+.team-member:hover:after {
+  opacity: 0;
+} */
+
+.team-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media only screen and (max-width: 768px) {
+  .team-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: space-evenly;
+  }
+  .inner-card {
+  }
+}
