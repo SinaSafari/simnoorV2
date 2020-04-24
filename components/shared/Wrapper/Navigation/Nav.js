@@ -33,15 +33,12 @@ const Navs = () => {
             <Link href="/">
               <a className="p-2 text-dark">Home</a>
             </Link>
-
             <Link href="/products">
               <a className="p-2 text-dark">Products</a>
             </Link>
-
             <Link href="/about">
               <a className="p-2 text-dark">About Us</a>
             </Link>
-
             <Link href="/contact">
               <a className="p-2 text-dark">Contact us</a>
             </Link>
@@ -134,7 +131,10 @@ const Navs = () => {
               </Link>
             )}
 
-            <a onClick={changeLang} className="btn btn-outline-primary mx-1">
+            <a
+              onClick={changeLang}
+              className="ltrfont btn btn-outline-primary mx-1"
+            >
               EN
             </a>
           </Form>

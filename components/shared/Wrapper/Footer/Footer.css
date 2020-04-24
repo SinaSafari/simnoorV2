@@ -1,23 +1,9 @@
-.footer-social a {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  width: 41px;
-  height: 41px;
-  color: #fff;
-  margin-right: 14px;
-  margin-bottom: 14px;
-  border-radius: 13px;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  background: #718090;
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
-}
-.footer-social a:hover {
-  background: #fc7626;
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
 }
