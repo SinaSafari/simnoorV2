@@ -4,6 +4,7 @@ import Products from "../components/Products";
 import Testemonials from "../components/Testemonials";
 import VideoSection from "../components/VideoSection";
 import ContactBanner from "../components/ContactBanner";
+import Visions from "../components/Visions";
 
 export const LandingPage = () => {
   return (
@@ -19,6 +20,7 @@ export const LandingPage = () => {
       <ContactBanner />
       <Testemonials />
       <VideoSection />
+      <Visions />
     </>
   );
 };
