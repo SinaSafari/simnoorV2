@@ -15,8 +15,10 @@ export const AppContextProvider = (props) => {
     setIsLoggedIn(false);
     setUserId(null);
   }, []);
+
   const changeLang = () => {
     setIsEng(!isEng);
+    // localStorage.setItem("isEng", isEng);
   };
 
   return (

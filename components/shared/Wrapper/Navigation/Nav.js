@@ -18,7 +18,12 @@ const Navs = () => {
 
   if (isEng) {
     return (
-      <Navbar bg="light" expand="lg" sticky="top">
+      <Navbar
+        // bg="light"
+        expand="lg"
+        sticky="top"
+        style={{ backgroundColor: "#fff", borderBottom: "1px solid orange" }}
+      >
         <Navbar.Brand href="#home">
           <img
             src="/icons/simnoorlogo.png"
