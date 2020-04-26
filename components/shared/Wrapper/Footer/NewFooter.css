@@ -1,14 +1,14 @@
-p {
+footer p {
   color: #999;
   line-height: 25px;
 }
 
-h2,
-h3 {
+footer h2,
+footer h3 {
   color: #fff;
 }
 
-h2 {
+footer h2 {
   font-size: 18px;
 }
 .footer-top {

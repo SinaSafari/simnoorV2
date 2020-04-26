@@ -69,9 +69,13 @@ const NewFooter = () => {
                   <input
                     type="email"
                     placeholder="Enter your email"
-                    className="ltrfont"
+                    className="ltrfont p-2"
                   />
-                  <input type="submit" value="subscribe" />
+                  <input
+                    type="submit"
+                    value="subscribe"
+                    className="my-1 mr-1"
+                  />
                 </form>
               </div>
             </div>
@@ -104,12 +108,13 @@ const NewFooter = () => {
                     style={{ textAlign: "right" }}
                     type="email"
                     placeholder="ایمیل خود را وارد کنید"
-                    className="rtlfont"
+                    className="rtlfont p-2"
                   />
                   <input
                     type="submit"
                     value="اشتراک"
                     style={{ textAlign: "right" }}
+                    className="my-1 mr-1"
                   />
                 </form>
               </div>
