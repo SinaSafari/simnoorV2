@@ -19,10 +19,10 @@ const Navs = () => {
   if (isEng) {
     return (
       <Navbar
-        // bg="light"
         expand="lg"
         sticky="top"
         style={{ backgroundColor: "#fff", borderBottom: "1px solid orange" }}
+        collapseOnSelect
       >
         <Navbar.Brand href="#home">
           <img
@@ -38,6 +38,7 @@ const Navs = () => {
             <Link href="/">
               <a className="p-2 text-dark">Home</a>
             </Link>
+
             <Link href="/products">
               <a className="p-2 text-dark">Products</a>
             </Link>
@@ -89,6 +90,7 @@ const Navs = () => {
         sticky="top"
         className="rtlfont"
         style={{ textAlign: "right" }}
+        collapseOnSelect
       >
         <Navbar.Brand href="#home">
           <img
