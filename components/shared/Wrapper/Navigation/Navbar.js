@@ -14,6 +14,7 @@ const Navbars = () => {
         collapseOnSelect
         expand="md"
         variant="light"
+        fixed="top"
         style={{ backgroundColor: "#fff", borderBottom: "1px solid orange" }}
       >
         <Navbar.Brand style={{ fontSize: "28px" }}>
@@ -56,15 +57,16 @@ const Navbars = () => {
         className="rtlfont"
         collapseOnSelect
         expand="md"
+        fixed="top"
         style={{ backgroundColor: "#fff", borderBottom: "1px solid orange" }}
         variant="light"
       >
-        <Navbar.Brand>
+        <Navbar.Brand style={{ fontSize: "28px" }}>
           سیم نور <span style={{ color: "orange" }}>یزدان</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ml-auto" style={{ textAlign: "right" }}>
+          <Nav className="mr-auto" style={{ textAlign: "right" }}>
             <Link href="/" passHref>
               <Nav.Link>خانه</Nav.Link>
             </Link>

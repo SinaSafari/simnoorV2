@@ -9,13 +9,16 @@ const ContactBanner = () => {
   if (isEng) {
     return (
       <div className="my-4">
-        <section className="cta-section" style={{ backgroundColor: "orange" }}>
+        <section
+          className="cta-section"
+          style={{ backgroundColor: "orange", textAlign: "center" }}
+        >
           <div className="container">
-            <div className="row">
-              <div className="col-lg-9 d-flex align-items-center">
+            <div className="row ">
+              <div className="col-lg-9 col-md-6 col-sm-12 d-flex align-items-center">
                 <h2>We produce or supply Goods, Services, or Sources</h2>
               </div>
-              <div className="col-lg-3 text-lg-right">
+              <div className="col-lg-3 col-md-6 col-sm-12 text-lg-right">
                 <Link href="/about">
                   <a className="site-btn sb-dark contactBtn">About us</a>
                 </Link>
@@ -29,16 +32,19 @@ const ContactBanner = () => {
   if (!isEng) {
     return (
       <div className="my-4 rtlfont">
-        <section className="cta-section" style={{ backgroundColor: "orange" }}>
+        <section
+          className="cta-section"
+          style={{ backgroundColor: "orange", textAlign: "center" }}
+        >
           <div className="container">
-            <div className="row">
-              <div className="col-lg-3 text-lg-right">
+            <div className="row ">
+              <div className="col-lg-3 col-md-6 col-sm-12 text-lg-right ">
                 <Link href="/about">
                   <a className="site-btn sb-dark contactBtn">درباره ما</a>
                 </Link>
               </div>
               <div
-                className="col-lg-9 d-flex align-items-center "
+                className="col-lg-9 col-md-6 col-sm-12 d-flex align-items-center "
                 style={{ textAlign: "right" }}
               >
                 <h2>ما کالاها ، خدمات یا منابع را تولید یا عرضه می کنیم</h2>

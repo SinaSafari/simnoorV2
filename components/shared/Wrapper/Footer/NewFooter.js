@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { AppContext } from "../../context/AppContext";
 
 import "./NewFooter.css";
+import Link from "next/link";
 const NewFooter = () => {
   const { isEng } = useContext(AppContext);
   if (isEng) {
@@ -22,19 +23,19 @@ const NewFooter = () => {
                 <h2>useful links</h2>
                 <ul>
                   <li>
-                    <a href="#">Event</a>
+                    <Link href="/news">
+                      <a>News and Events</a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">support</a>
+                    <Link href="/products">
+                      <a>Our Products</a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">hosting</a>
-                  </li>
-                  <li>
-                    <a href="#">career</a>
-                  </li>
-                  <li>
-                    <a href="#">blog</a>
+                    <Link href="/contact">
+                      <a>Contact us</a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -141,19 +142,19 @@ const NewFooter = () => {
                 <h2>لینک های مهم</h2>
                 <ul>
                   <li>
-                    <a href="#">رویداد</a>
+                    <Link href="/news">
+                      <a>اخبار و رویداد ها</a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">حمایت</a>
+                    <Link href="/products">
+                      <a>محصولات ما</a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">میزبانی</a>
-                  </li>
-                  <li>
-                    <a href="#">اشتغال</a>
-                  </li>
-                  <li>
-                    <a href="#">بلاگ</a>
+                    <Link href="/contact">
+                      <a>با ما تماس بگیرید</a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -170,7 +171,7 @@ const NewFooter = () => {
         </div>
         <p className="footer-bottom-text">
           Designed and maintain by{" "}
-          <a href="http://pouyeshsystem.com/">Pouyesh System</a> &copy;{" "}
+          <a href="http://pouyeshsystem.com/">Pouyesh System &copy;</a>
           {new Date().getFullYear()}
         </p>
       </footer>

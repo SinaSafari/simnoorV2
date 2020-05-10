@@ -28,7 +28,7 @@ const OurTeam = () => {
   if (isEng) {
     return (
       <section
-        className="team-section spad ltrfont"
+        className="team-section spad ltrfont "
         style={{ backgroundColor: "orange", textAlign: "center" }}
       >
         <div className="container">

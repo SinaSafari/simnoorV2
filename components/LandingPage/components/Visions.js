@@ -75,7 +75,7 @@ const Visions = () => {
                   تکنولوژی مورد نیاز و کاربردهای
                 </p>
               </div>
-              <img src="img/slide6.jpg" class="card-img-top" alt="..." />
+              <img src="img/slide6.jpg" className="card-img-top" alt="..." />
             </div>
           </div>
         </div>
