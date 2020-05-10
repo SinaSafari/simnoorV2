@@ -41,6 +41,9 @@ const Navs = () => {
             <Link href="/products">
               <a className="p-2 text-dark">Products</a>
             </Link>
+            <Link href="/news">
+              <a className="p-2 text-dark">News</a>
+            </Link>
             <Link href="/about">
               <a className="p-2 text-dark">About Us</a>
             </Link>
@@ -104,6 +107,9 @@ const Navs = () => {
 
             <Link href="/products">
               <a className="p-2 text-dark">محصولات</a>
+            </Link>
+            <Link href="/news">
+              <a className="p-2 text-dark">اخبار</a>
             </Link>
 
             <Link href="/about">

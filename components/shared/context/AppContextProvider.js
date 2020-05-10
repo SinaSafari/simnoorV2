@@ -18,7 +18,7 @@ export const AppContextProvider = (props) => {
 
   const changeLang = () => {
     setIsEng(!isEng);
-    // localStorage.setItem("isEng", isEng);
+    localStorage.setItem("isEng", isEng);
   };
 
   return (
